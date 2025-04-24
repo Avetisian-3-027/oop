@@ -1,0 +1,15 @@
+E:\KKNAU\oop\LAB17\bin\Debug\net8.0\LAB17.exe
+E:\KKNAU\oop\LAB17\bin\Debug\net8.0\LAB17.deps.json
+E:\KKNAU\oop\LAB17\bin\Debug\net8.0\LAB17.runtimeconfig.json
+E:\KKNAU\oop\LAB17\bin\Debug\net8.0\LAB17.dll
+E:\KKNAU\oop\LAB17\bin\Debug\net8.0\LAB17.pdb
+E:\KKNAU\oop\LAB17\obj\Debug\net8.0\LAB17.GeneratedMSBuildEditorConfig.editorconfig
+E:\KKNAU\oop\LAB17\obj\Debug\net8.0\LAB17.AssemblyInfoInputs.cache
+E:\KKNAU\oop\LAB17\obj\Debug\net8.0\LAB17.AssemblyInfo.cs
+E:\KKNAU\oop\LAB17\obj\Debug\net8.0\LAB17.csproj.CoreCompileInputs.cache
+E:\KKNAU\oop\LAB17\obj\Debug\net8.0\LAB17.sourcelink.json
+E:\KKNAU\oop\LAB17\obj\Debug\net8.0\LAB17.dll
+E:\KKNAU\oop\LAB17\obj\Debug\net8.0\refint\LAB17.dll
+E:\KKNAU\oop\LAB17\obj\Debug\net8.0\LAB17.pdb
+E:\KKNAU\oop\LAB17\obj\Debug\net8.0\LAB17.genruntimeconfig.cache
+E:\KKNAU\oop\LAB17\obj\Debug\net8.0\ref\LAB17.dll
