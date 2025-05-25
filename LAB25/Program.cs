@@ -181,12 +181,10 @@ class Program
     {
         void Update(int temperature);
     }
-
     class WeatherStation
     {
         private readonly List<IWeatherObserver> _observers = new();
         private int _temperature;
-
         public int Temperature
         {
             get => _temperature;
@@ -199,17 +197,14 @@ class Program
                 }
             }
         }
-
         public void RegisterObserver(IWeatherObserver observer)
         {
             _observers.Add(observer);
         }
-
         public void RemoveObserver(IWeatherObserver observer)
         {
             _observers.Remove(observer);
         }
-
         private void Notify()
         {
             foreach (var observer in _observers)
@@ -218,7 +213,6 @@ class Program
             }
         }
     }
-
     class PhoneApp : IWeatherObserver
     {
         public void Update(int temperature)
@@ -226,7 +220,6 @@ class Program
             Console.WriteLine($"PhoneApp: Температура оновлена до {temperature}°C");
         }
     }
-
     class Billboard : IWeatherObserver
     {
         public void Update(int temperature)
@@ -234,19 +227,14 @@ class Program
             Console.WriteLine($"Billboard: Погода зараз {temperature}°C");
         }
     }
-
     static void Ex4()
     {
         Console.WriteLine("Observer Pattern Example");
-
         var station = new WeatherStation();
-
         var phoneApp = new PhoneApp();
         var billboard = new Billboard();
-
         station.RegisterObserver(phoneApp);
         station.RegisterObserver(billboard);
-
         station.Temperature = 25;
         station.Temperature = 28;
     }
